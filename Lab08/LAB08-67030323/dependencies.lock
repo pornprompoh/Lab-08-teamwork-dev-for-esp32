@@ -1,0 +1,36 @@
+dependencies:
+  display_component:
+    component_hash: 29dee6547623f04f069ee762670acaef5ccc87bc4d4fe923505257e31b2125b8
+    dependencies: []
+    source:
+      git: https://github.com/pornprompoh/component.git
+      path: .
+      type: git
+    version: 4415f2496b93d6cf2927b96d3d4a008b3b67d717
+  idf:
+    source:
+      type: idf
+    version: 6.0.0
+  lad_component:
+    component_hash: 3f912b6218e54b8ccea764b49c50db7b1ec45df4b694d97a6991ed78eb68c656
+    dependencies: []
+    source:
+      git: https://github.com/littleJudyy/component.git
+      path: .
+      type: git
+    version: 215ffaf9e15ef0db1df1ec0e6a639ccf6a06ede2
+  sensor_component:
+    component_hash: 4cd60f92a0d01024ff79507416ea06d13cb735215f4b10b0ada6514b93ca2358
+    dependencies: []
+    source:
+      git: https://github.com/saranyapat3368/component.git
+      path: .
+      type: git
+    version: f0b30f0b52a3685dd8a5511a2c06cd8077d78b80
+direct_dependencies:
+- display_component
+- lad_component
+- sensor_component
+manifest_hash: 2792bf011d938ef7847c3b56c3de3b6de755f3f26e6b273778914036f79c4a2f
+target: esp32
+version: 2.0.0
